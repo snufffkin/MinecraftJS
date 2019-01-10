@@ -1,6 +1,6 @@
-var Drone = require('drone');
+var Drone = require('drone'); //stage 1
 
-function dice() {
+function dice() { //stage 1
     for (var j = 0; j < 5; j++) {
         for (var i = 0; i < 10; i++) {
             var num = Math.ceil(Math.random() * 6)
@@ -15,6 +15,6 @@ function dice() {
         .left(10)
         .fwd()
     }
-}
+} //stage 1
 
 Drone.extend(dice)		
