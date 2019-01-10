@@ -14,6 +14,6 @@ function respleef() { //stage 2
     .move('start') //stage 3
     .cylinder(80, 1, 10) //stage 3
 } //stage 2
-//stage 3
+
 Drone.extend(spleef) 
 Drone.extend(respleef) //stage 4
